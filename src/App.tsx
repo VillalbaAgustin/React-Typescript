@@ -1,4 +1,4 @@
-import { Counter } from "./components/Counter";
+import { Counter, User } from "./components";
 
 export const App = () => {
   return (
@@ -6,7 +6,9 @@ export const App = () => {
       <h1>React + Typescript</h1>
       <hr />
 
-      <Counter/>
+      <Counter />
+
+      <User />
     </>
   );
 };

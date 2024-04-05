@@ -1,1 +1,1 @@
-## _Learning typescript with @FernandoHerrera`#8e3ead`_
+## _Learning typescript with @FernandoHerrera_
