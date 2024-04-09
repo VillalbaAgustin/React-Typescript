@@ -1,4 +1,4 @@
-import { Counter, CounterReducer, TimerPadre, User } from "./components";
+import { Counter, CounterReducer, Form, TimerPadre, User } from "./components";
 
 export const App = () => {
   return (
@@ -22,6 +22,15 @@ export const App = () => {
       <hr />
 
       <CounterReducer/>
+
+      <hr />
+      <h2>Custom Hooks</h2>
+      <hr />
+      <Form/>
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 };

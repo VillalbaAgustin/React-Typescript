@@ -36,7 +36,7 @@ export const CounterReducer = () => {
   const [counterState, dispatch] = useReducer(counterReducer, initialState);
   return (
     <>
-      <h2>Contador: {counterState.counter}</h2>
+      <h4>Contador: {counterState.counter}</h4>
       <button
         className="btn btn-outline-primary"
         onClick={() => dispatch({ type: "increment" })}

@@ -9,7 +9,7 @@ export const Counter = () => {
 
   return (
     <div className="mt-5">
-      <h3>Counter: useState</h3>
+      <h4>Counter: useState</h4>
       <span>Valor: {counter}</span>
       <br />
       <button onClick={() => incrementar(1)} className="btn btn-primary mt-2">
