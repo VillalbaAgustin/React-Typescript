@@ -1,4 +1,4 @@
-import { Counter, CounterReducer, Form, TimerPadre, User } from "./components";
+import { Counter, CounterReducer, Form, Form2, TimerPadre, User } from "./components";
 
 export const App = () => {
   return (
@@ -30,7 +30,8 @@ export const App = () => {
       <br />
       <br />
       <br />
-      <br />
+      <hr />
+      <Form2/>
     </>
   );
 };
